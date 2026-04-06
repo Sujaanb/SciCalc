@@ -1,0 +1,40 @@
+# Ignore build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.exe
+*.dll
+
+# Ignore documentation
+docs/
+*.pdf
+
+# Ignore editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Ignore OS files
+Thumbs.db
+
+# Ignore test artifacts
+*.gcov
+*.gcda
+*.gcno
+.coverage
+
+# Ignore valgrind outputs
+vgcore.*
+valgrind-*.txt
+
+# Ignore temporary files
+*.tmp
+*.bak
+
+# Ignore history
+.scicalc/
