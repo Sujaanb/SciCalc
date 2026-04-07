@@ -1,0 +1,31 @@
+# Compiled binaries
+*.o
+*.a
+*.so
+scicalc
+
+# Executables
+*.exe
+*.out
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+dist/
+
+# Debug files
+*.gch
+*.pch
+
+# Object files
+.objs/
+
+# Temporary files
+*.tmp
