@@ -1,0 +1,39 @@
+# Build artifacts
+build/
+bin/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.dll
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+Makefile
+
+# Test outputs
+*.gcov
+*.gcda
+*.gcno
+test_results/
+
+# Doxygen
+docs/html/
+docs/latex/
+
+# WebAssembly
+*.js
+*.wasm
+*.wasm.map
